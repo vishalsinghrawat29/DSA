@@ -14,6 +14,7 @@ public class MaxSubArrayKadanes {
             }
         }
         System.out.println("Max SubArray Sum is " + ms);
+        
     }
     public static void main(String[] args) {
         int numbers[] = {-2,-3,-4,-1,-2,-1,-5,3};
