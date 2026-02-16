@@ -3,28 +3,28 @@ import java.util.Scanner;
 
 /*
 ========================================
-Pattern: Right-Angled Number Pyramid
+Pattern: Right-Angled Number Pyramid II
 
 Problem:
-Print a Right-Angled Number Pyramid of size n.
+Print a Right-Angled Number Pyramid II of size n.
 
 Example:
 Input: n = 4
 
 Output:
 1 
-1 2 
-1 2 3 
-1 2 3 4
+2 2 
+3 3 3 
+4 4 4 4
 
 ========================================
 */
 
-public class Pattern3 {
+public class Pattern04 {
     public static void rightAngleNumberPyramid(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print(j + " ");
+                System.out.print(i + " ");
             }
             System.out.println();
         }
@@ -38,4 +38,5 @@ public class Pattern3 {
             rightAngleNumberPyramid(n);
         }
     }
+
 }
