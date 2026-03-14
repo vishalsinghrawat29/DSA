@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Problem06 {
+public class Problem05 {
     public static void divisors(int n) {
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = 1; i * i <= n; i++) {

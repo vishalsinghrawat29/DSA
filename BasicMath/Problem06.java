@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Problem07 {
+public class Problem06 {
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;

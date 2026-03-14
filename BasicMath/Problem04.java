@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Problem05 {
+public class Problem04 {
     public static boolean isArmstrong(int n) {
         int digits = String.valueOf(n).length();
         int sum = 0, temp = n;
