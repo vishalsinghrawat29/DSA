@@ -1,6 +1,3 @@
-
-import java.util.Scanner;
-
 public class Problem06 {
     public static void reverseArr(int[] nums) {
         int i = 0;
@@ -15,12 +12,10 @@ public class Problem06 {
     }
 
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-            int[] nums = { 1, 2, 3, 4, 5 };
-            reverseArr(nums);
-            for (int n : nums) {
-                System.out.print(n + " ");
-            }
+        int[] nums = { 1, 2, 3, 4, 5 };
+        reverseArr(nums);
+        for (int n : nums) {
+            System.out.print(n + " ");
         }
     }
 
